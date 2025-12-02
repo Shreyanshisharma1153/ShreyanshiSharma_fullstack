@@ -1,0 +1,56 @@
+/* 1️⃣ Universal Selector */
+* {
+  margin: 5px;
+  font-family: Arial, sans-serif;
+}
+
+/* 2️⃣ Element Selector */
+p {
+  color: blue;
+}
+
+/* 3️⃣ Class Selector */
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+/* 4️⃣ ID Selector */
+#main-title {
+  color: purple;
+  text-align: center;
+  font-size: 28px;
+}
+
+/* 5️⃣ Descendant Selector */
+.container p {
+  color: green;
+}
+
+/* 6️⃣ Child Selector (>) */
+.container > span {
+  color: darkorange;
+  font-weight: bold;
+}
+
+/* 7️⃣ Adjacent Sibling Selector (+) */
+h3 + p {
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+/* 8️⃣ General Sibling Selector (~) */
+h3 ~ p {
+  background-color: lightgray;
+}
+
+/* 9️⃣ Attribute Selector */
+input[type="text"] {
+  border: 2px solid teal;
+}
+
+/* 🔟 Pseudo-class Hover Selector */
+p:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
